@@ -23,7 +23,7 @@ namespace DemoLibrary
 
 
         //############### private protected ########################
-        private protected void PrivateProtectedDemo() 
+        private protected void PrivateProtectedDemo()   // 1. Available in AccessDemo
         {
 
         }
@@ -32,8 +32,8 @@ namespace DemoLibrary
 
 
         //##################### protected ##########################
-        protected void ProtectedDemo()  // 1. Used very much with Inheritance
-        {                               // Note: Good to use to protect any outside acces from the inherited class you re working on for example
+        protected void ProtectedDemo()  
+        {                               
 
         }
         //##################### protected ##########################

@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace DemoLibrary
 {
-	class InheritFromAccessDemo : AccessDemo    // 2. Create a new class to inherit from AccessDemo. Purpose is testing Protected
+	class InheritFromAccessDemo : AccessDemo    
 	{
 		public void Test()
 		{
-			ProtectedDemo();  // 3. Protected I can call from here
+			// ProtectedDemo();  
 			//InternalDemo();
-			//PrivateProtectedDemo();
+			 PrivateProtectedDemo(); // 3.Private Protected can be called from here
 			//PublicDemo();
 			//InternalDemo();
 		}

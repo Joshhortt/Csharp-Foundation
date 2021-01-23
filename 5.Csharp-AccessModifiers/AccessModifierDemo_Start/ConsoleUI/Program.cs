@@ -12,7 +12,7 @@ namespace ConsoleUI
         static void Main(string[] args)
         {
             AccessDemo demo = new AccessDemo(); 
-            // demo.    // 2. Still not possible
+            //  demo.   3. You cant access internal because Program.cs is inside the ConsoleUI
         }
     }
 }

@@ -11,7 +11,7 @@ namespace DemoLibrary
 		private void MakeDemoCalls()
 		{
 		AccessDemo demo = new AccessDemo();
-		// demo.   3. InternalDemo, protecteInternalDemo etcc. appear but still not private
+	// demo.    2. It can acess InternalDemo because it inside the same Demo Library
 		}
 	}
 }

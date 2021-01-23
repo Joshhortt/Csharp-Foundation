@@ -1,0 +1,6 @@
+C:\Users\josec\Source\Repos\Csharp-Foundation\1.Csharp-HandlingExceptions\ExceptionsLibrary\bin\Debug\ExceptionsLibrary.dll
+C:\Users\josec\Source\Repos\Csharp-Foundation\1.Csharp-HandlingExceptions\ExceptionsLibrary\bin\Debug\ExceptionsLibrary.pdb
+C:\Users\josec\Source\Repos\Csharp-Foundation\1.Csharp-HandlingExceptions\ExceptionsLibrary\obj\Debug\ExceptionsLibrary.csprojAssemblyReference.cache
+C:\Users\josec\Source\Repos\Csharp-Foundation\1.Csharp-HandlingExceptions\ExceptionsLibrary\obj\Debug\ExceptionsLibrary.csproj.CoreCompileInputs.cache
+C:\Users\josec\Source\Repos\Csharp-Foundation\1.Csharp-HandlingExceptions\ExceptionsLibrary\obj\Debug\ExceptionsLibrary.dll
+C:\Users\josec\Source\Repos\Csharp-Foundation\1.Csharp-HandlingExceptions\ExceptionsLibrary\obj\Debug\ExceptionsLibrary.pdb

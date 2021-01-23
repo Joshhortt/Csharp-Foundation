@@ -1,0 +1,10 @@
+C:\Users\josec\OneDrive\Área de Trabalho\Tim Corey\Foundation C#\3.CsharpDebugging\Refactoring\RefactoringDemo_End\ConsoleUI\bin\Debug\ConsoleUI.exe.config
+C:\Users\josec\OneDrive\Área de Trabalho\Tim Corey\Foundation C#\3.CsharpDebugging\Refactoring\RefactoringDemo_End\ConsoleUI\bin\Debug\ConsoleUI.exe
+C:\Users\josec\OneDrive\Área de Trabalho\Tim Corey\Foundation C#\3.CsharpDebugging\Refactoring\RefactoringDemo_End\ConsoleUI\bin\Debug\ConsoleUI.pdb
+C:\Users\josec\OneDrive\Área de Trabalho\Tim Corey\Foundation C#\3.CsharpDebugging\Refactoring\RefactoringDemo_End\ConsoleUI\bin\Debug\BrownfieldLibrary.dll
+C:\Users\josec\OneDrive\Área de Trabalho\Tim Corey\Foundation C#\3.CsharpDebugging\Refactoring\RefactoringDemo_End\ConsoleUI\bin\Debug\BrownfieldLibrary.pdb
+C:\Users\josec\OneDrive\Área de Trabalho\Tim Corey\Foundation C#\3.CsharpDebugging\Refactoring\RefactoringDemo_End\ConsoleUI\obj\Debug\ConsoleUI.csprojAssemblyReference.cache
+C:\Users\josec\OneDrive\Área de Trabalho\Tim Corey\Foundation C#\3.CsharpDebugging\Refactoring\RefactoringDemo_End\ConsoleUI\obj\Debug\ConsoleUI.csproj.CoreCompileInputs.cache
+C:\Users\josec\OneDrive\Área de Trabalho\Tim Corey\Foundation C#\3.CsharpDebugging\Refactoring\RefactoringDemo_End\ConsoleUI\obj\Debug\ConsoleUI.csproj.CopyComplete
+C:\Users\josec\OneDrive\Área de Trabalho\Tim Corey\Foundation C#\3.CsharpDebugging\Refactoring\RefactoringDemo_End\ConsoleUI\obj\Debug\ConsoleUI.exe
+C:\Users\josec\OneDrive\Área de Trabalho\Tim Corey\Foundation C#\3.CsharpDebugging\Refactoring\RefactoringDemo_End\ConsoleUI\obj\Debug\ConsoleUI.pdb

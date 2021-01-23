@@ -51,8 +51,8 @@ namespace DemoLibrary
 
 
         //##################### internal ###########################
-        internal void InternalDemo()  // 1. Broader in scope but kind of like private. Example i this case it's inside the same DemoLibrary
-        {                             // Note. Internal works inside the same assembly, never out of the same assembly.                          
+        internal void InternalDemo()  
+        {                                                      
 
         }
         //##################### internal ###########################
@@ -60,8 +60,8 @@ namespace DemoLibrary
 
 
         //###################### public ############################
-        public void PublicDemo()
-        {
+        public void PublicDemo()  // 1. Accessible everywhere
+        {                        // Note: From any Assembly it is accessible
            
         }
         //###################### public ############################

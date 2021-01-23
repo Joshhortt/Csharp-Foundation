@@ -7,8 +7,14 @@ using System.Threading.Tasks;
 namespace DemoLibrary
 {
     public class AccessDemo
-    {
-        private void PrivateDemo()
+    { 
+        private void Demo()  // 1b. 
+        {
+            PrivateDemo();
+        }
+        
+       
+        private void PrivateDemo()  // 1. It's only accessible inside the area where it is declared
         {
             
         }
@@ -35,7 +41,9 @@ namespace DemoLibrary
 
         public void PublicDemo()
         {
-
+            PrivateDemo();
+            // Demo.  4. Private appear, so From here you can call PrivateDemo
+            //       Note:  That means you can call Private only between the class Access Demo curly braces area
         }
     }
 }

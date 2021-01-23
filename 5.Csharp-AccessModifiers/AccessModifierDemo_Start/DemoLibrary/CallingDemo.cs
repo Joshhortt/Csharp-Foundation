@@ -11,7 +11,7 @@ namespace DemoLibrary
 		private void MakeDemoCalls()
 		{
 		AccessDemo demo = new AccessDemo();
-			//  demo.   3. Public Demo Accessible from here as well
+			//  demo.   4. Cannot call protected
 		}
 	}
 }

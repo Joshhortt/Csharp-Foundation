@@ -12,7 +12,7 @@ namespace ConsoleUI
         static void Main(string[] args)
         {
             AccessDemo demo = new AccessDemo(); 
-            //  demo.   3. Accessible from here as well
+           // demo.    5. cannot call protected
         }
     }
 }

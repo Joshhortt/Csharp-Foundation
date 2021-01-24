@@ -23,7 +23,7 @@ namespace DemoLibrary
 
 
         //############### private protected ########################
-        private protected void PrivateProtectedDemo()   // 1. Available in AccessDemo
+        private protected void PrivateProtectedDemo()   
         {
 
         }
@@ -41,13 +41,15 @@ namespace DemoLibrary
 
 
         //################# protected internal #####################
-        protected internal void ProtectedInternalDemo()
+        protected internal void ProtectedInternalDemo()   // 1. Protected internal is protected inside it's own assembly 'Demo Library' &
+                                                             // inheritanceDemo class.
         {
 
         }
         //################# protected internal #####################
 
-
+        // 3.Private Protected can be called from here
+        //PublicDemo();
 
         //##################### internal ###########################
         internal void InternalDemo()  

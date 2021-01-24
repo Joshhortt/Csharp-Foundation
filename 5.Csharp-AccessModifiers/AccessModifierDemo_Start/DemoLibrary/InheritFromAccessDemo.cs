@@ -10,11 +10,13 @@ namespace DemoLibrary
 	{
 		public void Test()
 		{
-			// ProtectedDemo();  
+			//ProtectedDemo();  
 			//InternalDemo();
-			 PrivateProtectedDemo(); // 3.Private Protected can be called from here
+			//PrivateProtectedDemo();
 			//PublicDemo();
 			//InternalDemo();
+			ProtectedInternalDemo();   // 3.Protected Internal can be called from here
+									   
 		}
 	}
 }

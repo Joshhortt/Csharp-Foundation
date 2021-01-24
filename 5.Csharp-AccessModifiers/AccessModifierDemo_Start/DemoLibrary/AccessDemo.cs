@@ -48,8 +48,7 @@ namespace DemoLibrary
         }
         //################# protected internal #####################
 
-        // 3.Private Protected can be called from here
-        //PublicDemo();
+       
 
         //##################### internal ###########################
         internal void InternalDemo()  

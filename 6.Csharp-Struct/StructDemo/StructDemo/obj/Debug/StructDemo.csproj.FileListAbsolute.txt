@@ -1,0 +1,7 @@
+C:\Users\josec\Source\Repos\Csharp-Foundation\6.Csharp-Struct\StructDemo\StructDemo\bin\Debug\StructDemo.exe.config
+C:\Users\josec\Source\Repos\Csharp-Foundation\6.Csharp-Struct\StructDemo\StructDemo\bin\Debug\StructDemo.exe
+C:\Users\josec\Source\Repos\Csharp-Foundation\6.Csharp-Struct\StructDemo\StructDemo\bin\Debug\StructDemo.pdb
+C:\Users\josec\Source\Repos\Csharp-Foundation\6.Csharp-Struct\StructDemo\StructDemo\obj\Debug\StructDemo.csprojAssemblyReference.cache
+C:\Users\josec\Source\Repos\Csharp-Foundation\6.Csharp-Struct\StructDemo\StructDemo\obj\Debug\StructDemo.csproj.CoreCompileInputs.cache
+C:\Users\josec\Source\Repos\Csharp-Foundation\6.Csharp-Struct\StructDemo\StructDemo\obj\Debug\StructDemo.exe
+C:\Users\josec\Source\Repos\Csharp-Foundation\6.Csharp-Struct\StructDemo\StructDemo\obj\Debug\StructDemo.pdb

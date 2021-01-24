@@ -1,4 +1,4 @@
-﻿
+﻿using ExceptionsLibrary;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +13,7 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
-            /* // ############################ 1. Try catch ####################################
+            // ############################ 1. Try catch ####################################
             DemoCode demo = new DemoCode();
 
             try
@@ -39,11 +39,12 @@ namespace ConsoleUI
             }
 
             Console.ReadLine();
-            */
+            
 
 
 
             // ############################ 2. Try catch ####################################
+
             /* try {
 
                  StreamReader file = new StreamReader("file.txt"); // 1. Block of code. We think it's going to give us an error
@@ -57,7 +58,7 @@ namespace ConsoleUI
                 // throw;   // 2. Block of code is useful for only when the error occurs. Ex: If the file above doesn't exist then it will throw an errow here
                Debug.WriteLine("An Error occured!"); // Error message examplo
              }
-            */
+            
 
 
 
@@ -84,7 +85,7 @@ namespace ConsoleUI
             } finally
 			{
                 if(file != null)   file.Dispose();   // 3. Liberate the file when you don't want it anymore open 
-			}
+			} */
         }
     }
 }

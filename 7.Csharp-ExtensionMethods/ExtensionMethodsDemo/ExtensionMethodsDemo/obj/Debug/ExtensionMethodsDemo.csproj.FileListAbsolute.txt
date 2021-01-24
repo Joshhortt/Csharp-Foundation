@@ -1,0 +1,7 @@
+C:\Users\josec\Source\Repos\Csharp-Foundation\7.Csharp-ExtensionMethods\ExtensionMethodsDemo\ExtensionMethodsDemo\bin\Debug\ExtensionMethodsDemo.exe.config
+C:\Users\josec\Source\Repos\Csharp-Foundation\7.Csharp-ExtensionMethods\ExtensionMethodsDemo\ExtensionMethodsDemo\bin\Debug\ExtensionMethodsDemo.exe
+C:\Users\josec\Source\Repos\Csharp-Foundation\7.Csharp-ExtensionMethods\ExtensionMethodsDemo\ExtensionMethodsDemo\bin\Debug\ExtensionMethodsDemo.pdb
+C:\Users\josec\Source\Repos\Csharp-Foundation\7.Csharp-ExtensionMethods\ExtensionMethodsDemo\ExtensionMethodsDemo\obj\Debug\ExtensionMethodsDemo.csprojAssemblyReference.cache
+C:\Users\josec\Source\Repos\Csharp-Foundation\7.Csharp-ExtensionMethods\ExtensionMethodsDemo\ExtensionMethodsDemo\obj\Debug\ExtensionMethodsDemo.csproj.CoreCompileInputs.cache
+C:\Users\josec\Source\Repos\Csharp-Foundation\7.Csharp-ExtensionMethods\ExtensionMethodsDemo\ExtensionMethodsDemo\obj\Debug\ExtensionMethodsDemo.exe
+C:\Users\josec\Source\Repos\Csharp-Foundation\7.Csharp-ExtensionMethods\ExtensionMethodsDemo\ExtensionMethodsDemo\obj\Debug\ExtensionMethodsDemo.pdb

@@ -10,8 +10,7 @@ namespace DemoLibrary
 	{
 		private void MakeDemoCalls()
 		{
-		AccessDemo demo = new AccessDemo();
-			// demo.   2. protected Internal is available
+			
 		}
 	}
 }

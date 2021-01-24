@@ -11,9 +11,6 @@ namespace ConsoleUI
 	{
 		private void Demo()
 		{
-			ProtectedDemo();  
-
-			ProtectedInternalDemo();  // 4. Protected Internal is accessible too from here, inside the same assembly and also from were it inherits
 
 		}
 	}

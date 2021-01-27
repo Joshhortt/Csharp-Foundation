@@ -6,14 +6,18 @@ using System.Threading.Tasks;
 
 namespace DemoLibrary
 {
-	public abstract class DataAccess  // 1. Add 'abstract' class that says: 'You can't create me directly but anything that inherits from me gets this code'.
-	{                                 // It's a blend of Interface and Base Class.
+	public abstract class DataAccess  
+	{                                 
 		
 		public string LoadConnectionString(string name)
 		{
 			Console.WriteLine("Load Connection String");
 			return "testConnectionString";
 		}
+
+		public abstract void LoadData(string sql);  // 1. Add method with abstract. These are methods declarede but not implemented
+
+		public abstract void SaveData(string sql);  // 2. Add method with abstract. These are methods declarede but not implemented
 	}
 }
 

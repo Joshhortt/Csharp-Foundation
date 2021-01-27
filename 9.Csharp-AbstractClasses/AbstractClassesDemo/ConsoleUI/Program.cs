@@ -15,23 +15,33 @@ namespace ConsoleUI
         static void Main(string[] args)
         {
 
-            // 3. Comment out this block of code 
-            //List<IDataAccess> databases = new List<IDataAccess>()
-            //{
-            //    new SqlDataAccess(),
-            //    new SqliteDataAccess()
-            //};
+			// 1. Uncomment the code below and remove 'I' from DataAccess
 
-            
-            //foreach (var db in databases)
-            //{
-            //    db.LoadConnectionString("demo");
-            //    db.LoadData("select * from table");
-            //    db.SaveData("insert into table");
-            //    Console.WriteLine();
-            //}
+			List<DataAccess> databases = new List<DataAccess>()
+			{
+				new SqlDataAccess(),
+				new SqliteDataAccess()
+			};
 
-            Console.ReadLine();
+
+			foreach (var db in databases)
+			{
+				db.LoadConnectionString("demo");
+				db.LoadData("select * from table");
+				db.SaveData("insert into table");
+				Console.WriteLine();
+			}
+
+			Console.ReadLine();
         }
     }
 }
+/*OUTPUT that works fine now
+Load Connection String
+Loading Microsoft SQL Data
+Saving data to Microsoft SQL Server
+
+Load Connection String
+Loading SQLite Data
+Saving data to SQLite
+ */

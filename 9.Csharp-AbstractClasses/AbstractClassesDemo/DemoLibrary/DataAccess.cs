@@ -15,9 +15,9 @@ namespace DemoLibrary
 			return "testConnectionString";
 		}
 
-		public abstract void LoadData(string sql);  // 1. Add method with abstract. These are methods declarede but not implemented
+		public abstract void LoadData(string sql);  
 
-		public abstract void SaveData(string sql);  // 2. Add method with abstract. These are methods declarede but not implemented
+		public abstract void SaveData(string sql);  
 	}
 }
 

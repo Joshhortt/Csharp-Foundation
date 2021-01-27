@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace DemoLibrary
 {
-    public class SqlDataAccess : DataAccess   // 5. Note that 'SqlDataAccess' creates an error
+    public class SqlDataAccess : DataAccess  
     {
 
-        public override void LoadData(string sql)   // 6. We have to include 'override'. It overrides and makes implementation possible
+        public override void LoadData(string sql)   
         {
             Console.WriteLine("Loading Microsoft SQL Data"); 
         }
 
-        public override void SaveData(string sql)   // 6a. We have to include 'override' and above Error desappears. It overrides and makes implementation possible
+        public override void SaveData(string sql)   
         {
             Console.WriteLine("Saving data to Microsoft SQL Server");  
         }

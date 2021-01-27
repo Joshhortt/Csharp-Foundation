@@ -4,13 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//More advanced shuffling / RNGCryptoServiceProviderDemo:  https://stackoverflow.com/questions/273313/randomize-a-listt/1262619#1262619
+
 namespace RandomNumbersDemo
 {
 	class Program
 	{
 		static void Main(string[] args)
 		{
-			Random random = new Random();
+			Random random = new Random();  // DON´T PASS ASEED VALUE IN
 
 			//for (int i = 0; i < 10; i++)
 
@@ -32,8 +34,8 @@ namespace RandomNumbersDemo
 				new PersonModel{FirstName = "Peter"}
 			};
 
-			//var sortedPeople = people.OrderBy(x => x.FirstName);  // 1. Comment this,
-			var sortedPeople = people.OrderBy(x => random.Next());  // 2. And add random.Next() it will randomly print the out FirstNames
+			//var sortedPeople = people.OrderBy(x => x.FirstName);  
+			var sortedPeople = people.OrderBy(x => random.Next()); 
 			foreach (var p in sortedPeople)
 			{
 				Console.WriteLine(p.FirstName);

@@ -10,48 +10,54 @@ namespace RandomNumbersDemo
 	{
 		static void Main(string[] args)
 		{
-			// 1. Just printing out random generated numbers
+			// 1. Printing out random numbers less than 11
 			Random random = new Random();
-			//for(int i = 0; i < 10; i++)
-				for (int i = 0; i < 10; i++)
+			for(int i = 0; i < 10; i++)
+				
 				{
-				Console.WriteLine(random.Next());
+				//Console.WriteLine(random.Next(11));  // 2. less than 11. The max value will not be picked.
+				Console.WriteLine(random.Next(8));  // 3. less than 8. The max value will not be picked.
 			}
 			Console.ReadLine();
 		}
 	}
 }
 
-/*OUTPUT FIRST ATTEMPT( 10 whole numbers)
-1735068141
-458828833
-1978960402
-2105941021
-750729128
-299430000
-414993441
-1285919177
-971344789
-1302444363
+/*OUTPUT FIRST ATTEMPT( 10 whole numbers), less than 11
+2
+10
+10
+2
+9
+8
+2
+5
+6
+1
  
 
-OUTPUT SECOND ATTEMPT (10 whole numbers)
-53365996
-614834425
-17580216
-446546647
-495751920
-194571714
-1507621949
-1641285800
-1290424958
-186302080
+OUTPUT SECOND ATTEMPT (10 whole numbers), less than 11
+7
+8
+9
+5
+10
+9
+10
+3
+9
+5
 
+OUTPUT SECOND ATTEMPT (10 whole numbers), BUT with less than 8 values.
+0
+2
+2
+2
+5
+5
+7
+3
+2
+1
 
-OUTPUT THIRD ATTEMPT (5 whole numbers)
-854285811
-1705189089
-1175556858
-1857248375
-1887450935
  */

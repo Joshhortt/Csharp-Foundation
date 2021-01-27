@@ -10,11 +10,8 @@ namespace RandomNumbersDemo
 	{
 		static void Main(string[] args)
 		{
-			// 1. Using Random well ...
 			Random random = new Random();
 
-
-			// 2. Comment this block of code
 			//for (int i = 0; i < 10; i++)
 
 			//	{
@@ -23,7 +20,7 @@ namespace RandomNumbersDemo
 			// SimpleMethod(random);    
 			//}
 
-			List<PersonModel> people = new List<PersonModel>  // 4. Adding a List of Person model with some random  first names
+			List<PersonModel> people = new List<PersonModel>  
 			{
 				new PersonModel{FirstName = "Josh"},
 				new PersonModel{FirstName = "Maria"},
@@ -35,16 +32,12 @@ namespace RandomNumbersDemo
 				new PersonModel{FirstName = "Peter"}
 			};
 
-			//6.  Order by alphabetical order baseline.
-
-			var sortedPeople = people.OrderBy(x => x.FirstName);
-
-			foreach(var p in sortedPeople)
+			//var sortedPeople = people.OrderBy(x => x.FirstName);  // 1. Comment this,
+			var sortedPeople = people.OrderBy(x => random.Next());  // 2. And add random.Next() it will randomly print the out FirstNames
+			foreach (var p in sortedPeople)
 			{
 				Console.WriteLine(p.FirstName);
 			}
-
-
 
 			Console.ReadLine();
 		}
@@ -54,21 +47,29 @@ namespace RandomNumbersDemo
 		}
 	}
 
-	public class PersonModel //  3. Creating a class
+	public class PersonModel 
 	{
 		public string FirstName { get; set; }
 	}
 }
 
-/*OUTPUT names of Person model by alphabetical order
-Alex
-Ana
+/*OUTPUT FIRST ATTEMPT: names of Person model by random order
 Josef
-Josh
 Maria
-Peter
-Sofia
+Josh
 Sonia
+Peter
+Ana
+Sofia
+Alex
 
-
+OUTPUT SECOND ATTEMPT: names of Person model by random order
+Sofia
+Josef
+Peter
+Josh
+Ana
+Alex
+Maria
+Sonia
  */

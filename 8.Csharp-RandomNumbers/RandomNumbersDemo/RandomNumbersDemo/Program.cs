@@ -10,29 +10,40 @@ namespace RandomNumbersDemo
 	{
 		static void Main(string[] args)
 		{
-			// 1. Printing out random numbers less than 8 including 5
-			Random random = new Random();
-			for(int i = 0; i < 10; i++)
+			// 1. Printing out random numbers less than 8 including 5 with passing in a seed number of 1
+			Random random = new Random(1);  // 2.  with passing in a seed number of 1
+			for (int i = 0; i < 10; i++)
 				
 				{
 				
-				Console.WriteLine(random.Next(5, 8));  // 2. less than 8. including 5
+				Console.WriteLine(random.Next(5, 8));  
 			}
 			Console.ReadLine();
 		}
 	}
 }
 
-/*OUTPUT FIRST ATTEMPT( 10 whole numbers), less than 8 including 5
-6
+/*OUTPUT FIRST ATTEMPT( 10 whole numbers), less than 8 including 5 with passing in a seed number of 1
+5
 5
 6
+7
+6
+6
+6
+7
 5
-7
 6
-7
-6
-7
-7
  
+/*SAME OUTPUT FIRST ATTEMPT( 10 whole numbers), less than 8 including 5 with passing in a seed number of 1
+5
+5
+6
+7
+6
+6
+6
+7
+5
+6
  */

@@ -1,0 +1,7 @@
+C:\Users\josec\Source\Repos\Csharp-Foundation\8.Csharp-RandomNumbers\RandomNumbersDemo\RandomNumbersDemo\bin\Debug\RandomNumbersDemo.exe.config
+C:\Users\josec\Source\Repos\Csharp-Foundation\8.Csharp-RandomNumbers\RandomNumbersDemo\RandomNumbersDemo\bin\Debug\RandomNumbersDemo.exe
+C:\Users\josec\Source\Repos\Csharp-Foundation\8.Csharp-RandomNumbers\RandomNumbersDemo\RandomNumbersDemo\bin\Debug\RandomNumbersDemo.pdb
+C:\Users\josec\Source\Repos\Csharp-Foundation\8.Csharp-RandomNumbers\RandomNumbersDemo\RandomNumbersDemo\obj\Debug\RandomNumbersDemo.csprojAssemblyReference.cache
+C:\Users\josec\Source\Repos\Csharp-Foundation\8.Csharp-RandomNumbers\RandomNumbersDemo\RandomNumbersDemo\obj\Debug\RandomNumbersDemo.csproj.CoreCompileInputs.cache
+C:\Users\josec\Source\Repos\Csharp-Foundation\8.Csharp-RandomNumbers\RandomNumbersDemo\RandomNumbersDemo\obj\Debug\RandomNumbersDemo.exe
+C:\Users\josec\Source\Repos\Csharp-Foundation\8.Csharp-RandomNumbers\RandomNumbersDemo\RandomNumbersDemo\obj\Debug\RandomNumbersDemo.pdb

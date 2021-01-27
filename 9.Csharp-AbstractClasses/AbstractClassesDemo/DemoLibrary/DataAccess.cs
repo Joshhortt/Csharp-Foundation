@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace DemoLibrary
 {
-	public class DataAccess
-	{
-		// 1. Method copied from SqliteDatAccess and SqlDataAccess. Both serve the same purpose. Both now are childeren from DataAcces (Base).
-		// They bring along the same method.
+	public abstract class DataAccess  // 1. Add 'abstract' class that says: 'You can't create me directly but anything that inherits from me gets this code'.
+	{                                 // It's a blend of Interface and Base Class.
+		
 		public string LoadConnectionString(string name)
 		{
 			Console.WriteLine("Load Connection String");

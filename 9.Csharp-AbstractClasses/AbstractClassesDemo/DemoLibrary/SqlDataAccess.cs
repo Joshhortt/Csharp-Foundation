@@ -9,13 +9,6 @@ namespace DemoLibrary
     public class SqlDataAccess : DataAccess
     {
 
-        // 5. Comment out this Method after copy to DataAccess.
-        //public string LoadConnectionString(string name)  
-        //{
-        //    Console.WriteLine("Load Connection String");
-        //    return "testConnectionString"; 
-        //}
-
         public void LoadData(string sql)
         {
             Console.WriteLine("Loading Microsoft SQL Data"); 

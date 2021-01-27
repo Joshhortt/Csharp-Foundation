@@ -10,54 +10,29 @@ namespace RandomNumbersDemo
 	{
 		static void Main(string[] args)
 		{
-			// 1. Printing out random numbers less than 11
+			// 1. Printing out random numbers less than 8 including 5
 			Random random = new Random();
 			for(int i = 0; i < 10; i++)
 				
 				{
-				//Console.WriteLine(random.Next(11));  // 2. less than 11. The max value will not be picked.
-				Console.WriteLine(random.Next(8));  // 3. less than 8. The max value will not be picked.
+				
+				Console.WriteLine(random.Next(5, 8));  // 2. less than 8. including 5
 			}
 			Console.ReadLine();
 		}
 	}
 }
 
-/*OUTPUT FIRST ATTEMPT( 10 whole numbers), less than 11
-2
-10
-10
-2
-9
-8
-2
+/*OUTPUT FIRST ATTEMPT( 10 whole numbers), less than 8 including 5
+6
 5
 6
-1
+5
+7
+6
+7
+6
+7
+7
  
-
-OUTPUT SECOND ATTEMPT (10 whole numbers), less than 11
-7
-8
-9
-5
-10
-9
-10
-3
-9
-5
-
-OUTPUT SECOND ATTEMPT (10 whole numbers), BUT with less than 8 values.
-0
-2
-2
-2
-5
-5
-7
-3
-2
-1
-
  */

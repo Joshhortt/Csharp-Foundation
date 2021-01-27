@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\AbstractClassesDemo"
+    "\\AbstractClassesDemo",
+    "\\AbstractClassesDemo\\ConsoleUI"
   ],
   "SelectedNode": "\\AbstractClassesDemo\\AbstractDemo.sln",
   "PreviewInSolutionExplorer": false

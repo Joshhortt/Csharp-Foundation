@@ -13,13 +13,38 @@ namespace RandomNumbersDemo
 			// 1. Using Random well ...
 			Random random = new Random();
 
-			for (int i = 0; i < 10; i++)
-				
-				{
-				// 2. Comment -- >> Console.WriteLine(random.Next(5, 8));  
-				Console.WriteLine(random.NextDouble()*10);  // 4. Adding times 10
-				// SimpleMethod(random);    3. Comment
+
+			// 2. Comment this block of code
+			//for (int i = 0; i < 10; i++)
+
+			//	{
+			//	Console.WriteLine(random.Next(5, 8));  
+			//	Console.WriteLine(random.NextDouble()*10); 
+			// SimpleMethod(random);    
+			//}
+
+			List<PersonModel> people = new List<PersonModel>  // 4. Adding a List of Person model with some random  first names
+			{
+				new PersonModel{FirstName = "Josh"},
+				new PersonModel{FirstName = "Maria"},
+				new PersonModel{FirstName = "Sonia"},
+				new PersonModel{FirstName = "Josef"},
+				new PersonModel{FirstName = "Ana"},
+				new PersonModel{FirstName = "Sofia"},
+				new PersonModel{FirstName = "Alex"},
+				new PersonModel{FirstName = "Peter"}
+			};
+
+			//6.  Order by alphabetical order baseline.
+
+			var sortedPeople = people.OrderBy(x => x.FirstName);
+
+			foreach(var p in sortedPeople)
+			{
+				Console.WriteLine(p.FirstName);
 			}
+
+
 
 			Console.ReadLine();
 		}
@@ -28,30 +53,22 @@ namespace RandomNumbersDemo
 			Console.WriteLine(random.Next());
 		}
 	}
+
+	public class PersonModel //  3. Creating a class
+	{
+		public string FirstName { get; set; }
+	}
 }
 
-/*OUTPUT FIRST ATTEMPT( 10 double numbers * 10)
-0,139265204844654
-3,82976169410616
-0,80990890078708
-1,41330418708422
-1,24125268368109
-9,70188010004436
-2,31688420396153
-8,62122371728589
-2,96912741054275
-5,64087316190865
- 
-/*OUTPUT SECOND ATTEMPT( 10 double numbers * 10)
-7,55958123484607
-6,04187799898995
-4,76878221368826
-3,09801962370892
-5,38336959452525
-2,19276398988104
-2,54288801110484
-1,32242888273784
-7,29699967303174
-1,29073349353426
+/*OUTPUT names of Person model by alphabetical order
+Alex
+Ana
+Josef
+Josh
+Maria
+Peter
+Sofia
+Sonia
+
 
  */

@@ -7,14 +7,15 @@ using System.Threading.Tasks;
 namespace DemoLibrary
 {
 
-    // 1. Three methods that just do Console.Writeline():
-    public class SqliteDataAccess : IDataAccess
+    public class SqliteDataAccess : DataAccess
     {
-        public string LoadConnectionString(string name)
-        {
-            Console.WriteLine("Load Connection String");
-            return "testConnectionString";
-        }
+        // 2. Comment out this Method after copy to DataAccess.
+
+        //public string LoadConnectionString(string name)
+        //{
+        //    Console.WriteLine("Load Connection String");
+        //    return "testConnectionString";
+        //}
 
         public void LoadData(string sql)
         {

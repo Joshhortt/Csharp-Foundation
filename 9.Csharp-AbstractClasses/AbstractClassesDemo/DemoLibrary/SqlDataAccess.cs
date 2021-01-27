@@ -6,22 +6,24 @@ using System.Threading.Tasks;
 
 namespace DemoLibrary
 {
-    public class SqlDataAccess : IDataAccess
+    public class SqlDataAccess : DataAccess
     {
-        public string LoadConnectionString(string name)  
-        {
-            Console.WriteLine("Load Connection String");
-            return "testConnectionString";  // 5. returns testConnectionString
-        }
+
+        // 5. Comment out this Method after copy to DataAccess.
+        //public string LoadConnectionString(string name)  
+        //{
+        //    Console.WriteLine("Load Connection String");
+        //    return "testConnectionString"; 
+        //}
 
         public void LoadData(string sql)
         {
-            Console.WriteLine("Loading Microsoft SQL Data"); // 6. Loads Data (simulated)
+            Console.WriteLine("Loading Microsoft SQL Data"); 
         }
 
         public void SaveData(string sql)
         {
-            Console.WriteLine("Saving data to Microsoft SQL Server");  // 7. Saves data to Sql server (simulated)
+            Console.WriteLine("Saving data to Microsoft SQL Server");  
         }
     }
 }

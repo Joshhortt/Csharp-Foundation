@@ -8,8 +8,6 @@ namespace DemoLibrary
 {
     public interface IDataAccess
     {
-
-        // 2. Only three methods in
         string LoadConnectionString(string name);
         void LoadData(string sql);
         void SaveData(string sql);

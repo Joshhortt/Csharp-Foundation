@@ -14,33 +14,24 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
-            // 3. A List with SqlDataAccess Instance  and  SqliteDataAccess Instance
-            List<IDataAccess> databases = new List<IDataAccess>()
-            {
-                new SqlDataAccess(),
-                new SqliteDataAccess()
-            };
 
-            // 4. Foreach that run through the 3 methods created
-            foreach (var db in databases)
-            {
-                db.LoadConnectionString("demo");
-                db.LoadData("select * from table");
-                db.SaveData("insert into table");
-                Console.WriteLine();
-            }
+            // 3. Comment out this block of code 
+            //List<IDataAccess> databases = new List<IDataAccess>()
+            //{
+            //    new SqlDataAccess(),
+            //    new SqliteDataAccess()
+            //};
+
+            
+            //foreach (var db in databases)
+            //{
+            //    db.LoadConnectionString("demo");
+            //    db.LoadData("select * from table");
+            //    db.SaveData("insert into table");
+            //    Console.WriteLine();
+            //}
 
             Console.ReadLine();
         }
     }
 }
-
-/*OUTPUT
-Load Connection String
-Loading Microsoft SQL Data
-Saving data to Microsoft SQL Server
-
-Load Connection String
-Loading SQLite Data
-Saving data to SQLite
- */

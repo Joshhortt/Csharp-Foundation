@@ -12,3 +12,10 @@ C:\Users\josec\OneDrive\Área de Trabalho\TimCoreyC#\StaticClasses\ConsoleUI\obj
 C:\Users\josec\OneDrive\Área de Trabalho\TimCoreyC#\StaticClasses\ConsoleUI\obj\Debug\ConsoleUI.csproj.CoreCompileInputs.cache
 C:\Users\josec\OneDrive\Área de Trabalho\TimCoreyC#\StaticClasses\ConsoleUI\obj\Debug\ConsoleUI.exe
 C:\Users\josec\OneDrive\Área de Trabalho\TimCoreyC#\StaticClasses\ConsoleUI\obj\Debug\ConsoleUI.pdb
+C:\Users\josec\Source\Repos\Csharp-Foundation\11.ClassTypes\StaticClasses\ConsoleUI\bin\Debug\ConsoleUI.exe.config
+C:\Users\josec\Source\Repos\Csharp-Foundation\11.ClassTypes\StaticClasses\ConsoleUI\bin\Debug\ConsoleUI.exe
+C:\Users\josec\Source\Repos\Csharp-Foundation\11.ClassTypes\StaticClasses\ConsoleUI\bin\Debug\ConsoleUI.pdb
+C:\Users\josec\Source\Repos\Csharp-Foundation\11.ClassTypes\StaticClasses\ConsoleUI\obj\Debug\ConsoleUI.csprojAssemblyReference.cache
+C:\Users\josec\Source\Repos\Csharp-Foundation\11.ClassTypes\StaticClasses\ConsoleUI\obj\Debug\ConsoleUI.csproj.CoreCompileInputs.cache
+C:\Users\josec\Source\Repos\Csharp-Foundation\11.ClassTypes\StaticClasses\ConsoleUI\obj\Debug\ConsoleUI.exe
+C:\Users\josec\Source\Repos\Csharp-Foundation\11.ClassTypes\StaticClasses\ConsoleUI\obj\Debug\ConsoleUI.pdb

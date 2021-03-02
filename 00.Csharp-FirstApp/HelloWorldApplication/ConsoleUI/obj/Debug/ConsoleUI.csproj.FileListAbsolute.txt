@@ -1,7 +1,0 @@
-C:\Users\josec\Documents\Visual Studio 2019\Projects\HelloWorldApplication\ConsoleUI\bin\Debug\ConsoleUI.exe.config
-C:\Users\josec\Documents\Visual Studio 2019\Projects\HelloWorldApplication\ConsoleUI\bin\Debug\ConsoleUI.exe
-C:\Users\josec\Documents\Visual Studio 2019\Projects\HelloWorldApplication\ConsoleUI\bin\Debug\ConsoleUI.pdb
-C:\Users\josec\Documents\Visual Studio 2019\Projects\HelloWorldApplication\ConsoleUI\obj\Debug\ConsoleUI.csprojAssemblyReference.cache
-C:\Users\josec\Documents\Visual Studio 2019\Projects\HelloWorldApplication\ConsoleUI\obj\Debug\ConsoleUI.csproj.CoreCompileInputs.cache
-C:\Users\josec\Documents\Visual Studio 2019\Projects\HelloWorldApplication\ConsoleUI\obj\Debug\ConsoleUI.exe
-C:\Users\josec\Documents\Visual Studio 2019\Projects\HelloWorldApplication\ConsoleUI\obj\Debug\ConsoleUI.pdb

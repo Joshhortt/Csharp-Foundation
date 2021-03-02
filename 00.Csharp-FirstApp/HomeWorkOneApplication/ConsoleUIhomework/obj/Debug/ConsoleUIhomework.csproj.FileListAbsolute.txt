@@ -1,7 +1,0 @@
-C:\Users\josec\Documents\Visual Studio 2019\Projects\HomeWorkOneApplication\ConsoleUIhomework\bin\Debug\ConsoleUIhomework.exe.config
-C:\Users\josec\Documents\Visual Studio 2019\Projects\HomeWorkOneApplication\ConsoleUIhomework\bin\Debug\ConsoleUIhomework.exe
-C:\Users\josec\Documents\Visual Studio 2019\Projects\HomeWorkOneApplication\ConsoleUIhomework\bin\Debug\ConsoleUIhomework.pdb
-C:\Users\josec\Documents\Visual Studio 2019\Projects\HomeWorkOneApplication\ConsoleUIhomework\obj\Debug\ConsoleUIhomework.csprojAssemblyReference.cache
-C:\Users\josec\Documents\Visual Studio 2019\Projects\HomeWorkOneApplication\ConsoleUIhomework\obj\Debug\ConsoleUIhomework.csproj.CoreCompileInputs.cache
-C:\Users\josec\Documents\Visual Studio 2019\Projects\HomeWorkOneApplication\ConsoleUIhomework\obj\Debug\ConsoleUIhomework.exe
-C:\Users\josec\Documents\Visual Studio 2019\Projects\HomeWorkOneApplication\ConsoleUIhomework\obj\Debug\ConsoleUIhomework.pdb
